@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dashboard2</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all">
+    <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+      <div class="row">
+            <div class="col-md-1 first-sidebar">
+                <div class="list-glyph">
+                    <span class="glyphicon glyphicon-align-justify" aria-hidden="true" style="font-size:24px"></span>
+                </div>
+
+                <div class="first-sidebar-glyphs">
+                    <ul class="nav nav-pills nav-stacked">
+                        <li role="presentation"><a href="#"><span class="glyphicon glyphicon-flash" aria-hidden="true" style="font-size:24px"></span></a></li>
+                        <li role="presentation"><a href="#"><i class="fa fa-diamond" style="font-size:24px"></i></a></li>
+                        <li role="presentation"  class="active"><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true" style="font-size:24px"></span></a></li>
+                        <li role="presentation"><a href="#"><i class='fa fa-flask' style='font-size:24px'></i></a></li>
+                        <li role="presentation"><a href="#"><span class="glyphicon glyphicon-send" aria-hidden="true" style="font-size:24px"></span></a></li>
+                        <li role="presentation"><a href="#"><span class="glyphicon glyphicon-inbox" aria-hidden="true" style="font-size:24px"></span></a></li>
+                    </ul>
+                </div>
+
+                <div style="margin-left: 10px;"><img class="profile-pic img-responsive" src="images/gmail.png" alt="..."></div>
+            </div>
+
+
+            <div class="col-md-2 second-sidebar">
+               <div class="row abilan" style="margin-left: 10px; margin-bottom: 50px;">
+                <div class="albin">
+                  <div class="circle">
+                    <div class="child">
+                      <div class="kidi"></div>
+                    </div>
+                  </div>
+                  <h2 class="logo-name" style="margin-left: 10px; font-size: 25px; font-weight: bold;">ABILAN</h2>
+                </div>
+               </div>
+
+               <div class="row">
+                    <div class="compose">
+                        <button type="button" class="btn btn-default compose-button"><h4>+ Compose Mail</h4></button>
+                    </div>
+               </div>
+
+               <div class="row">
+                    <div class="second-sidebar-glyphs">
+                        <h5 style="color: #9b9a9a; margin-left: 10px;">Folders</h5>
+                        <ul class="nav nav-pills nav-stacked">
+                            <li role="presentation"  class="active"><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Inbox <span class="badge" style="margin-left: 40px">42</span></a></li>
+                            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-send" aria-hidden="true"></span>  Send Mail</a></li>
+                            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>  Important</a></li>
+                            <li role="presentation"><a href="#"><span style="padding-right: 20px"><i class="material-icons" style="font-size:18px">drafts</i></span> Draft</a></li>
+                            <li role="presentation"><a href="#"><span style="padding-right: 20px"><i class="material-icons" style="font-size:20px">bug_report</i></span>Spam</a></li>
+                            <li role="presentation"><a href="#"><span class="glyphicon glyphicon-trash" aria-hidden="true"></span>  Trash</a></li>
+                        </ul>
+                    </div>
+               </div>
+
+               <div class="row" style="margin-left: 2px; margin-bottom: 50px; margin-top: 50px;">
+                   <h5 style="color: #9b9a9a; margin-left: 10px;">Online Friend</h5>
+                 <div class="online-section">
+                     <div style="margin-bottom: 10px;"><img class="profile-pic img-responsive" src="images/list.png" alt="..."></div>
+                     <div class="online-name">Liam Miller</div>
+                 </div>
+
+                 <div class="online-section">
+                    <div style="margin-bottom: 10px;"><img class="profile-pic img-responsive" src="images/list.png" alt="..."></div>
+                    <div class="online-name">Fiona Smith</div>
+                 </div>
+
+                 <div class="online-section">
+                    <div><img class="profile-pic img-responsive" src="Images/adidas.png" alt="..."></div>
+                    <div class="online-name">Ivor Watson</div>
+                </div>
+
+               </div>
+
+               <div class="row"  style="margin-left: 2px;">
+                   <h5 style="color: #9b9a9a; margin-left: 10px;">Labels</h5>
+                   <div class="labels">
+                    <span class="label important"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span>  Important</span>
+                    <span class="label new"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span>  New</span>
+                    <span class="label old"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span>  Old</span>
+                    <span class="label priority"><span class="glyphicon glyphicon-tags" aria-hidden="true"></span>  Priority</span>
+                   </div>
+               </div>               
+            </div>
+
+
+            <div class="col-md-9 main-area">
+              <div class="row">
+                <nav class="navbar navbar-default">
+                  <div class="container-fluid">
+                      <a class="navbar-brand" href="#">Inbox</a>
+                      
+                      <ul class="nav navbar-nav navbar-right">
+                        <div class="navbar-glyphs">
+                          <ul class="nav nav-pills">
+                              <li role="presentation"><a href="#"><span class="glyphicon glyphicon-bell" aria-hidden="true"  style="font-size:18px"></span></a></li>
+                              <li role="presentation"><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"  style="font-size:18px"></span></a></li>
+                              
+                
+                              <li role="presentation" class="dropdown">
+                                  <a class="dropdown-toggle languages" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                      <span class="glyphicon glyphicon-globe" aria-hidden="true"  style="font-size:18px">English  </span><span class="caret"></span>
+                                  </a>
+                                  <ul class="dropdown-menu ">
+                                      <li class="languages">
+                                          <a href="#">
+                                            <img class="language img-responsive" src="images/media pic2.png" />
+                                            <span>Deutsch</span>
+                                          </a>
+                                        </li>
+                                        <li class="languages">
+                                          <a href="#">
+                                            <img class="language img-responsive" src="images/media pic1.png" />
+                                            <span>English</span>
+                                          </a>
+                                        </li>
+                                        <li class="languages">
+                                          <a href="#">
+                                            <img class="language img-responsive" src="images/media pic3.png" />
+                                            <span>François</span>
+                                          </a>
+                                        </li>
+                                        <li class="languages">
+                                          <a href="#">
+                                            <img class="language img-responsive" src="images/media pic1.png" />
+                                            <span>Mandarin</span>
+                                          </a>
+                                        </li>
+                                        <li class="languages">
+                                          <a href="#">
+                                            <img class="language img-responsive" src="Images/media pic2.png" />
+                                            <span>Español</span>
+                                          </a>
+                                        </li>
+                                  </ul>
+                              </li>
+                
+                              <li role="presentation"><a href="#">
+                                  <div class="online-section">
+                                      <div><img class="main-area-profile-pic img-responsive" src="images/media pic3.png" alt="..."></div>
+                                      <div class="online-name"> Ephya Delma</div>
+                                   </div>
+                              </li>
+                          </ul>
+                        </div>
+                      </ul>
+                  </div>
+
+                  <div class="second-navbar">     
+                        <ul class="nav navbar-nav navbar-left">
+                          <div> <span class="glyphicon glyphicon-unchecked" style=" font-size:20px; margin-left:20px; margin-top: 15px;" aria-hidden="true"></span>  <span class="caret"></span></div>
+                          <div class="secondnav-middle-glyphs">
+                            <div class="secondnav-glyphs" >
+                              <ul>
+                                <a class="custom-gray" href="#"><span class="glyphicon glyphicon-repeat" style="padding: 0px 10px;" aria-hidden="true"></span></a>
+                                <a class="custom-white" href="#"><span class="glyphicon glyphicon-eye-open"  aria-hidden="true"></span></a>
+                                <a class="custom-gray" href="#"><span class="glyphicon glyphicon-trash" style="padding: 0px 10px;" aria-hidden="true"></span></a>
+                              </ul>
+                            </div>
+                          </div>
+                          
+                          <div class="form-group">
+                            <input type="text" class="form-control" style="margin-top: 15px; margin-left: 20px; background-color: #E9EAEF;" placeholder="Search here...">
+                          </div>
+
+                        </ul>
+                        
+
+                        <ul class="nav navbar-nav navbar-right" style=" font-size:20px; margin-right:20px; margin-top: 15px;">
+                            <span class="glyphicon glyphicon-menu-left" style="margin-right:15px;" aria-hidden="true"></span>
+                            <span class="glyphicon glyphicon-menu-right" style="margin-right:15px;" aria-hidden="true"></span>
+                        </ul> 
+                         
+                  </div>
+
+                </div>  
+                </nav>
+              </div>
+
+              <div>
+                
+              </div>
+
+              <div class="row real">
+                  <div class="col-md-3">
+                      <div class="users-comment">
+                        <div class="online-section">
+                          <div><img class="main-area-profile-pic img-responsive" src="images/media pic2.png" alt="..."></div>
+                          <div class="online-name">Albert Johnson</div>
+                        </div>
+                       <p style="padding: 20px 0px">How To Write Better Advertising <br> Copy Heading</p>
+                       <div class="options">
+                          <span class="glyphicon glyphicon-unchecked" style="margin-right:15px;" aria-hidden="true"></span>
+                          <span class="glyphicon glyphicon-star" style="margin-right:15px; color: rgb(223, 96, 23)" aria-hidden="true"></span>
+                          <span class="glyphicon glyphicon-paperclip"  aria-hidden="true"></span>
+                          <div class="date" style="float: right;">8.30 AM</div>
+                        </div>
+                      </div>
+
+                      <div class="second-users-comment">
+                        <div class="online-section">
+                          <div><img class="main-area-profile-pic img-responsive" src="images/main user.png" alt="..."></div>
+                          <div class="online-name">Bertha Allen</div>
+                        </div>
+                       <p style="padding: 20px 0px">Old Fashioned Recipes For Preventing Allergies And Chemical</p>
+                       <div class="options">
+                          <span class="glyphicon glyphicon-unchecked" style="margin-right:15px;" aria-hidden="true"></span>
+                          <span class="glyphicon glyphicon-star" style="margin-right:15px; color: rgb(223, 96, 23)" aria-hidden="true"></span>
+                          <span class="glyphicon glyphicon-paperclip"  aria-hidden="true"></span>
+                          <div class="date" style="float: right;">May 10,2020</div>
+                        </div>
+                      </div>
+
+                      <div class="users-comment">
+                        <div class="online-section">
+                          <div><img class="main-area-profile-pic img-responsive" src="images/gmail.png" alt="..."></div>
+                          <div class="online-name">Carlos Diaz</div>
+                        </div>
+                       <p style="padding: 20px 0px">How To Write Better Advertising <br> Copy Heading</p>
+                       <div class="options">
+                          <span class="glyphicon glyphicon-unchecked" style="margin-right:15px;" aria-hidden="true"></span>
+                          <span class="glyphicon glyphicon-star" style="margin-right:15px; color: rgb(223, 96, 23)" aria-hidden="true"></span>
+                          <span class="glyphicon glyphicon-paperclip"  aria-hidden="true"></span>
+                          <div class="date" style="float: right;">8.30 AM</div>
+                        </div>
+                      </div>
+
+                      <div class="users-comment">
+                        <div class="online-section">
+                          <div><img class="main-area-profile-pic img-responsive" src="images/list.png" alt="..."></div>
+                          <div class="online-name">Barry Allen</div>
+                        </div>
+                       <p style="padding: 20px 0px">How To Write Better Advertising <br> Copy Heading</p>
+                       <div class="options">
+                          <span class="glyphicon glyphicon-unchecked" style="margin-right:15px;" aria-hidden="true"></span>
+                          <span class="glyphicon glyphicon-star" style="margin-right:15px; color: rgb(223, 96, 23)" aria-hidden="true"></span>
+                          <span class="glyphicon glyphicon-paperclip"  aria-hidden="true"></span>
+                          <div class="date" style="float: right;">8.30 AM</div>
+                        </div>
+                      </div>
+                      
+
+                  </div>
+
+                  <div class="col-md-5 opened-mail">
+                    <h5>May 1, 2020</h5>
+                    <div class="row" >
+                      <div class="col-md-9">
+                        <p style="font-size: 25px;">Old Fashioned Recipe For Preventing Allergies And Chemical</p>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="options">
+                          <span class="glyphicon glyphicon-share-alt" style="margin-right:15px;" aria-hidden="true"></span>
+                          <span class="glyphicon glyphicon-print" style="color: blue; margin-right:15px;" aria-hidden="true"></span>
+                          <span class="glyphicon glyphicon-trash" style=" color: rgb(199, 15, 15)" aria-hidden="true"></span>
+                        </div>
+                      </div>
+
+                      <p style="padding-left: 20px;margin-bottom: 50px;"><strong>From:</strong>ephyadelma1754@gmail.com</p>
+
+                      <div class="message" style="padding-left: 20px;margin-bottom: 50px;">
+                        <h5>Hello Delma!</h5>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br>
+                          Lorem Ipsum has been the industry's dummy text ever since the 1500's,
+                          when an unknow printer took a galley of type and scrambled it to make a type spacimen book,
+                          remaining essentially unchanged.
+                        </p>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                           Accusantium inventore eius laudantium quas exercitationem? Itaque
+                        </p>
+                        <br>
+                        <p>Much Love,<br> Delma</p>
+                        <br>
+                        <div class="message-options">
+                          <div><span class="glyphicon glyphicon-paperclip"  aria-hidden="true" style="margin-right: 10px;"></span> Attachment</div>
+                          <div style="margin:0px 10px;">(80 MB)</div>
+                          <div>
+                            <span class="label view-all">  View All</span>
+                            <span class="label download-all">  Download All</span>
+                          </div>
+                        </div>
+
+                        <div class="mail-images">
+                          <div> <img class="mail-pic img-responsive" src="images/main user.png" alt="..."></div>
+                          <div> <img class="mail-pic img-responsive" src="images/main user.png" alt="..."></div>
+                          <div> <img class="mail-pic img-responsive" src="images/main user.png" alt="..."></div>
+                          <div> <img class="mail-pic img-responsive" src="images/main user.png" alt="..."></div>
+                          <div class="remaining-mail-pic">20+</div>
+                        </div>
+
+                        <div class="last-buttons">
+                          <button class="reply-button">
+                            <i class="fa fa-reply" aria-hidden="true" style="margin-right: 10px;"></i>Reply
+                          </button>
+                          <button class="forward-button">
+                            <i class="fas fa-share" aria-hidden="true" style="margin-right: 10px;"></i>Forward
+                          </button>
+                        </div>
+
+
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+             
+              
+
+            </div>
+
+        
+      </div>
+    </div>
+
+
+    <script type="text/javascript"src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript"src="js/bootstrap.min.js"></script>
+</body> 
+</html>
+
